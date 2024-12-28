@@ -24,3 +24,48 @@ button {
     border-radius: 10px;  /* Add rounded corners */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+
+
+body {
+    font-family: Arial, sans-serif;  /* Font for the entire page */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;  /* Background color for the page */
+  }
+  
+  /* Navbar settings */
+  nav {
+    background-color: #333;  /* Dark background for navbar */
+    padding: 10px 0;  /* Padding for the navbar */
+    position: fixed;  /* Fix the navbar at the top */
+    width: 100%;  /* Full-width */
+    top: 0;  /* Align to the top */
+    z-index: 1000;  /* Ensure it's always on top */
+  }
+  
+  /* Navbar list settings */
+  .navbar {
+    list-style: none;  /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex;  /* Use flexbox for horizontal alignment */
+    justify-content: center;  /* Center the navbar items */
+  }
+  
+  .navbar li {
+    margin: 0 15px;  /* Add spacing between items */
+  }
+  
+  .navbar a {
+    color: black;  /* White text color */
+    text-decoration: none;  /* Remove underline from links */
+    padding: 10px 20px;  /* Padding inside each link */
+    display: block;  /* Make the links block-level elements */
+    transition: background-color 0.3s ease;  /* Smooth background color transition */
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;  /* Change background on hover */
+    border-radius: 5px;  /* Round the corners */
+  }
