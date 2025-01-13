@@ -18,21 +18,27 @@ button {
     color: white;
     cursor: pointer;
 }
-.image {
-    width: 200px;      /* Resize the image */
-    height: auto;      /* Maintain aspect ratio */
-    border-radius: 10px;  /* Add rounded corners */
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 
 
 body {
     font-family: Arial, sans-serif;  /* Font for the entire page */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;  /* Background color for the page */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
   }
+  
+.image {
+    
+    border-radius: 10px;  /* Add rounded corners */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bordered-image {
+  border: 5px solid #000000; /* 5px thick solid black border */
+  padding: 10px; /* Optional: space between the image and border */
+  border-radius: 10px; /* Optional: rounded corners for the border */
+}
   
   /* Navbar settings */
   nav {
